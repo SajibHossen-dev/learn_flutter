@@ -7,17 +7,21 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Center(
       child: Container(
-        width: 250,
-        height: 120,
-        color: Colors.red,
-        child: const Center(
-          child: Text("Hello flutter",
+        width: 300,
+        height: 150,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+           color: Colors.blue,
+        ),
+        child:const Center(
+        
+       child: Text ("Hello flutter",
           style: TextStyle(
-            color: Colors.amber,
-            fontSize: 20,
+            color: Colors.white,
+            fontSize: 24,
             decoration: TextDecoration.none,
-          ),
-          
+        
+          )
           ),
           
         ),
