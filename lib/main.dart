@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/LearnExpanded.dart';
-import 'package:learn_flutter/LearnStack.dart';
-import 'package:learn_flutter/column.dart';
-import 'package:learn_flutter/inportentWidgets.dart';
-import 'package:learn_flutter/row.dart';
+import 'package:learn_flutter/widgets/LearnExpanded.dart';
+import 'package:learn_flutter/widgets/LearnListView.dart';
+import 'package:learn_flutter/widgets/LearnStack.dart';
+import 'package:learn_flutter/widgets/column.dart';
+import 'package:learn_flutter/widgets/inportentWidgets.dart';
+import 'package:learn_flutter/widgets/row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LearnStack()
+      home: Learnlistview()
     );
   }
 }
