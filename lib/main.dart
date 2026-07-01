@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/column.dart';
 import 'package:learn_flutter/inportentWidgets.dart';
 import 'package:learn_flutter/row.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LearnRow()
+      home: LearnColumn()
     );
   }
 }
