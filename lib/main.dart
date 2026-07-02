@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/widgets/LearnCart.dart';
 import 'package:learn_flutter/widgets/LearnExpanded.dart';
 import 'package:learn_flutter/widgets/LearnListView.dart';
 import 'package:learn_flutter/widgets/LearnSingleChildScrollView.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Learnsinglechildscrollview()
+      home: Learncart()
     );
   }
 }
