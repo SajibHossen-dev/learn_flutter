@@ -8,6 +8,7 @@ import 'package:learn_flutter/widgets/LearnSingleChildScrollView.dart';
 import 'package:learn_flutter/widgets/LearnStack.dart';
 import 'package:learn_flutter/widgets/LearnTextEditingController.dart';
 import 'package:learn_flutter/widgets/LearnTextField.dart';
+import 'package:learn_flutter/widgets/NavigatoinFristPage.dart';
 import 'package:learn_flutter/widgets/column.dart';
 import 'package:learn_flutter/widgets/inportentWidgets.dart';
 import 'package:learn_flutter/widgets/row.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Learntexteditingcontroller()
+      home: Navigatoinfristpage()
     );
   }
 }
