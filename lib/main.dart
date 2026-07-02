@@ -6,6 +6,7 @@ import 'package:learn_flutter/widgets/LearnImage.dart';
 import 'package:learn_flutter/widgets/LearnListView.dart';
 import 'package:learn_flutter/widgets/LearnSingleChildScrollView.dart';
 import 'package:learn_flutter/widgets/LearnStack.dart';
+import 'package:learn_flutter/widgets/LearnTextEditingController.dart';
 import 'package:learn_flutter/widgets/LearnTextField.dart';
 import 'package:learn_flutter/widgets/column.dart';
 import 'package:learn_flutter/widgets/inportentWidgets.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Learntextfield()
+      home: Learntexteditingcontroller()
     );
   }
 }
